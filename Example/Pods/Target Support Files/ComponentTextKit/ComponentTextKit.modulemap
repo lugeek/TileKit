@@ -1,0 +1,6 @@
+framework module ComponentTextKit {
+  umbrella header "ComponentTextKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

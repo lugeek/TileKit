@@ -6,7 +6,7 @@
 //  Copyright (c) 2021 lugeek. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface TILEViewController : UIViewController
 

@@ -1,0 +1,11 @@
+CLANG_CXX_LANGUAGE_STANDARD = gnu++14
+CLANG_CXX_LIBRARY = libc++
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ComponentKit" "${PODS_CONFIGURATION_BUILD_DIR}/ComponentTextKit" "${PODS_CONFIGURATION_BUILD_DIR}/RenderCore" "${PODS_CONFIGURATION_BUILD_DIR}/TileKit" "${PODS_CONFIGURATION_BUILD_DIR}/Yoga"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ComponentKit/ComponentKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ComponentTextKit/ComponentTextKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/RenderCore/RenderCore.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/TileKit/TileKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Yoga/yoga.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "ComponentKit" -framework "ComponentTextKit" -framework "RenderCore" -framework "TileKit" -framework "yoga"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

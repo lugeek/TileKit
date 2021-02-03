@@ -1,0 +1,40 @@
+PODS:
+  - ComponentKit (0.30):
+    - RenderCore (= 0.30)
+    - Yoga (~> 1.14)
+  - ComponentTextKit (0.30):
+    - ComponentKit
+  - RenderCore (0.30)
+  - TileKit (0.1.0)
+  - Yoga (1.14.0)
+
+DEPENDENCIES:
+  - ComponentKit (from `../`)
+  - ComponentTextKit (from `../`)
+  - RenderCore (from `../`)
+  - TileKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Yoga
+
+EXTERNAL SOURCES:
+  ComponentKit:
+    :path: "../"
+  ComponentTextKit:
+    :path: "../"
+  RenderCore:
+    :path: "../"
+  TileKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ComponentKit: 438a1e438686478bb598c5560e231e2b5a55483f
+  ComponentTextKit: c085e815a604a9ae924f2565809b44f489d75906
+  RenderCore: 418ac6aaab3fed809f312144d509d1f9b1a879c6
+  TileKit: 22fccabd863363540fb25563c7eef25976b39a42
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+
+PODFILE CHECKSUM: dc55b1a3b14400e5256907b6ffe813e05b69a90f
+
+COCOAPODS: 1.5.3

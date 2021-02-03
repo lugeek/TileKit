@@ -20,9 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7FA8483AED87AB9F195074F8 /* Pods_TileKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0F93CD394B34B2C607A3CE /* Pods_TileKit_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C7AB791825C937B500739454 /* TILEHostingVIewTextController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7AB791725C937B500739454 /* TILEHostingVIewTextController.mm */; };
+		C7AB792725C93F0000739454 /* TILECollectionViewTestController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7AB792625C93F0000739454 /* TILECollectionViewTestController.mm */; };
+		C7AB792E25C94F4500739454 /* TILEBigCollectionViewTestController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7AB792D25C94F4500739454 /* TILEBigCollectionViewTestController.mm */; };
 		D00438FEB9FB4B6E12D4AA13 /* Pods_TileKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A035258BCC6274CEFE5D92 /* Pods_TileKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F2FF090B4319137BE8CAE7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0F2FF090B4319137BE8CAE7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		45F0BD5515F2D5FFBB2F40F6 /* Pods-TileKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TileKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TileKit_Example/Pods-TileKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TileKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,13 +59,20 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75824DC565E9CF023B467169 /* TileKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TileKit.podspec; path = ../TileKit.podspec; sourceTree = "<group>"; };
+		75824DC565E9CF023B467169 /* TileKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TileKit.podspec; path = ../TileKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		76A035258BCC6274CEFE5D92 /* Pods_TileKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TileKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB9248BC65B7342F31E8276 /* Pods-TileKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TileKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TileKit_Tests/Pods-TileKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7E4E083DD8DFBA3A799E026 /* Pods-TileKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TileKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TileKit_Tests/Pods-TileKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E5708DC33985731FC995D80A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C7AB782825C8ECD500739454 /* ComponentTextKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ComponentTextKit.podspec; path = ../ComponentTextKit.podspec; sourceTree = "<group>"; };
+		C7AB782925C8ECD500739454 /* RenderCore.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = RenderCore.podspec; path = ../RenderCore.podspec; sourceTree = "<group>"; };
+		C7AB784325C8EE5200739454 /* ComponentKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ComponentKit.podspec; path = ../ComponentKit.podspec; sourceTree = "<group>"; };
+		C7AB791625C937B500739454 /* TILEHostingVIewTextController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TILEHostingVIewTextController.h; sourceTree = "<group>"; };
+		C7AB791725C937B500739454 /* TILEHostingVIewTextController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TILEHostingVIewTextController.mm; sourceTree = "<group>"; };
+		C7AB792525C93F0000739454 /* TILECollectionViewTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TILECollectionViewTestController.h; sourceTree = "<group>"; };
+		C7AB792625C93F0000739454 /* TILECollectionViewTestController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TILECollectionViewTestController.mm; sourceTree = "<group>"; };
+		C7AB792C25C94F4500739454 /* TILEBigCollectionViewTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TILEBigCollectionViewTestController.h; sourceTree = "<group>"; };
+		C7AB792D25C94F4500739454 /* TILEBigCollectionViewTestController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TILEBigCollectionViewTestController.mm; sourceTree = "<group>"; };
+		E5708DC33985731FC995D80A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EB59E5B64F06C935781FBC25 /* Pods-TileKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TileKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TileKit_Example/Pods-TileKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB0F93CD394B34B2C607A3CE /* Pods_TileKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TileKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,12 +153,16 @@
 			children = (
 				6003F59C195388D20070C39A /* TILEAppDelegate.h */,
 				6003F59D195388D20070C39A /* TILEAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TILEViewController.h */,
 				6003F5A6195388D20070C39A /* TILEViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				C7AB791625C937B500739454 /* TILEHostingVIewTextController.h */,
+				C7AB791725C937B500739454 /* TILEHostingVIewTextController.mm */,
+				C7AB792525C93F0000739454 /* TILECollectionViewTestController.h */,
+				C7AB792625C93F0000739454 /* TILECollectionViewTestController.mm */,
+				C7AB792C25C94F4500739454 /* TILEBigCollectionViewTestController.h */,
+				C7AB792D25C94F4500739454 /* TILEBigCollectionViewTestController.mm */,
 			);
 			name = "Example for TileKit";
 			path = TileKit;
@@ -189,6 +201,9 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				C7AB784325C8EE5200739454 /* ComponentKit.podspec */,
+				C7AB782825C8ECD500739454 /* ComponentTextKit.podspec */,
+				C7AB782925C8ECD500739454 /* RenderCore.podspec */,
 				75824DC565E9CF023B467169 /* TileKit.podspec */,
 				0F2FF090B4319137BE8CAE7B /* README.md */,
 				E5708DC33985731FC995D80A /* LICENSE */,
@@ -247,6 +262,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lugeek;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Z4TNDQ9U2L;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -257,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -276,8 +295,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -325,13 +342,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TileKit_Example/Pods-TileKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ComponentKit/ComponentKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ComponentTextKit/ComponentTextKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RenderCore/RenderCore.framework",
 				"${BUILT_PRODUCTS_DIR}/TileKit/TileKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComponentKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComponentTextKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RenderCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TileKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,9 +392,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AB792725C93F0000739454 /* TILECollectionViewTestController.mm in Sources */,
+				C7AB791825C937B500739454 /* TILEHostingVIewTextController.mm in Sources */,
 				6003F59E195388D20070C39A /* TILEAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TILEViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C7AB792E25C94F4500739454 /* TILEBigCollectionViewTestController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,14 +434,6 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -497,6 +517,7 @@
 			baseConfigurationReference = 45F0BD5515F2D5FFBB2F40F6 /* Pods-TileKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z4TNDQ9U2L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TileKit/TileKit-Prefix.pch";
 				INFOPLIST_FILE = "TileKit/TileKit-Info.plist";
@@ -513,6 +534,7 @@
 			baseConfigurationReference = EB59E5B64F06C935781FBC25 /* Pods-TileKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z4TNDQ9U2L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TileKit/TileKit-Prefix.pch";
 				INFOPLIST_FILE = "TileKit/TileKit-Info.plist";

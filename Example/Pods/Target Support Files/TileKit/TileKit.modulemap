@@ -1,0 +1,6 @@
+framework module TileKit {
+  umbrella header "TileKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

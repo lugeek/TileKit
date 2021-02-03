@@ -1,0 +1,6 @@
+framework module Pods_TileKit_Example {
+  umbrella header "Pods-TileKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
